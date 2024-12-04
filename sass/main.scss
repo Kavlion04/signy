@@ -1,7 +1,20 @@
+@import "../sass/style/about";
+@import "../sass/style/feruzbke";
+@import "../sass/style/index";
+@import "../sass/style/muhammad";
+@import "../sass/style/yosinxon";
+
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 
+}
+.contianer {
+    max-width: 1280px;
+    margin: 0 auto;
 }
