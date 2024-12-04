@@ -99,8 +99,27 @@ header {
 
         }
     }
+    @media (max-width: 1050px) {
+        .header__nav {
+            display: none;
+        }
+        
+    }
+   
+    .header__img {
+        display: none;
+        cursor: pointer;
+        @media (max-width: 1050px) {
+            display: block;
+        }
+    }
 }
 
+.relative {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
 
 
 
