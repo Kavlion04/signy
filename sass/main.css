@@ -84,4 +84,24 @@ header .header__nav .select option {
   font-family: "IBM Plex Sans";
   font-weight: 500;
   font-size: 14px;
+}
+@media (max-width: 1050px) {
+  header .header__nav {
+    display: none;
+  }
+}
+header .header__img {
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 1050px) {
+  header .header__img {
+    display: block;
+  }
+}
+
+.relative {
+  display: flex;
+  align-items: center;
+  gap: 100px;
 }/*# sourceMappingURL=main.css.map */
