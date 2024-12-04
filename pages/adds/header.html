@@ -1,13 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIGNY</title>
     <link rel="stylesheet" href="../../sass/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../../assets/fonts/Group 7 (1).svg" type="image/x-icon">
+
 </head>
+
 <body>
-    
-    
+    <header>
+        <div>
+            <a href="../../index.html"><img src="../../assets/fonts/Group 7 (1).svg" alt=""></a>
+        </div>
+        <div class="header__nav">
+
+
+            <div>
+
+                <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+                    class="text-[#061224E5] opacity-90   font-[IBM Plex Sans] font-[700] text-[14px]  text-center inline-flex items-center "
+                    type="button">0 800 750 643<svg class="w-2.5 h-2.5 ms-3 " aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 1 4 4 4-4" />
+                    </svg>
+                </button>
+
+                <!-- Dropdown menu -->
+                <div id="dropdown" class="z-10 hidden bg-white divide-y  rounded-lg shadow  w-44 ">
+                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                        <li>
+                            <a href="tel:0 800 750 643"
+                                class=" font-[IBM Plex Sans] font-[500] block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">0
+                                800 340 566</a>
+                        </li>
+                        <li>
+                            <a href="tel:0 800 123 334"
+                                class="block font-[IBM Plex Sans] font-[500]  px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">0
+                                800 123 334</a>
+                        </li>
+                        <li>
+                            <a href="tel:0 800 124 456"
+                                class="block font-[IBM Plex Sans] font-[500]  px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">0
+                                800 124 456</a>
+                        </li>
+                        <li>
+                            <a href="tel:0 800 456 457"
+                                class="block font-[IBM Plex Sans] font-[500]  px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">0
+                                800 456 457</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div>
+                <button id="dropdownDefaultButton2" data-dropdown-toggle="dropdown2"
+                    class="text-[#061224E5] opacity-90 text-[14px] font-[500] font-[IBM Plex Sans] hover:text-[#1064E5]  text-center inline-flex items-center  "
+                    type="button">ПРО НАС <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 1 4 4 4-4" />
+                    </svg>
+                </button>
+
+
+                <div id="dropdown2"
+                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton2">
+                        <li>
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign
+                                out</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__nav2">
+
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a class="text-[#061224E5] font-[IBM Plex Sans] font-[500] opacity-90 text-[14px] "
+                                href="">ЦЕНЫ</a>
+                        </li>
+                        <li>
+                            <a class="text-[#061224E5] font-[IBM Plex Sans] font-[500] opacity-90 text-[14px] "
+                                href="">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="btn">
+                    Вход
+                </button>
+                <button class="btn">
+                    Регистрация
+                </button>
+                <div>
+                    <select name="" id="" class="select">
+                        <option value="RU">РУС</option>
+                        <option value="EN">АНГ</option>
+                        <option value="UZ">УЗБ</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="../../js/app.js"></script>
 </body>
+
 </html>
