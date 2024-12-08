@@ -1,0 +1,26 @@
+.s2__item {
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.s2__content {
+  width: 48%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.s2__content-img {
+  width: 100%;
+}
+
+.input-blog {
+  border-radius: 20px;
+  border: 1px solid #1064e5;
+}
+.footer-nav-blog-post {
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+}
