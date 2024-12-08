@@ -58,6 +58,314 @@
   width: 100%;
 }
 
+main .section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+main .section2 .moment {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+main .section2 .moment b {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-family: "IBM Plex Sans";
+  font-size: 24px;
+  font-weight: 500;
+}
+main .section2 .moment p {
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(6, 18, 36, 0.8980392157);
+  opacity: 90%;
+  margin-top: 25px;
+}
+@media (max-width: 900px) {
+  main .section2 {
+    flex-direction: column;
+  }
+}
+
+.class {
+  background-color: #D8F1F0;
+  padding: 40px;
+  margin-top: 100px;
+}
+.class .flex {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.class .flex h1 {
+  font-family: "IBM Plex Serif";
+  font-size: 40px;
+  font-weight: 500;
+  color: rgba(6, 18, 36, 0.8980392157);
+  margin-bottom: 20px;
+}
+.class .flex h2 {
+  font-family: "IBM Plex Serif";
+  font-size: 40px;
+  font-weight: 500;
+  color: rgba(6, 18, 36, 0.8980392157);
+  margin-bottom: 20px;
+}
+.class .flex .all-p {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+  text-align: start;
+  justify-content: center;
+}
+.class .flex .all-p p {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+}
+.class .flex .all-p p span {
+  margin-left: 10px;
+}
+.class .flex .btn {
+  margin-top: 40px;
+}
+@media (max-width: 1050px) {
+  .class .flex img {
+    width: 300px;
+  }
+}
+@media (max-width: 770px) {
+  .class .flex {
+    flex-direction: column;
+  }
+}
+
+.box-card h3 {
+  font-family: "IBM Plex Serif";
+  font-size: 40px;
+  font-weight: 500;
+  color: rgba(6, 18, 36, 0.8980392157);
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.box-card .div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  flex-wrap: nowrap;
+}
+.box-card .div .card {
+  background-color: #D8F1F0;
+  padding: 20px;
+  width: 350px;
+  height: 340px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.box-card .div .card .card-title {
+  font-family: "IBM Plex Sans";
+  font-size: 28px;
+  font-weight: 600;
+  color: rgba(6, 18, 36, 0.8980392157);
+}
+.box-card .div .card .card-text {
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(6, 18, 36, 0.8980392157);
+}
+.box-card .div .card .card-text2 {
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(6, 18, 36, 0.8980392157);
+}
+.box-card .div .card .card-text2 span {
+  font-family: "IBM Plex Sans";
+  font-size: 48px;
+  font-weight: 700;
+}
+.box-card .div .card .cvb {
+  margin-top: 78px;
+}
+.box-card .div .card:hover {
+  transition: all 0.3s ease-in-out;
+  box-shadow: #D8F1F0 0px 0px 6px 8px;
+}
+@media (max-width: 1050px) {
+  .box-card .div {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 770px) {
+  .box-card {
+    flex-direction: column;
+  }
+}
+
+.sectio {
+  background-color: #D8F1F0;
+}
+.sectio .section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+}
+.sectio .section4 h4 {
+  font-family: "IBM Plex Sans";
+  font-size: 73px;
+  font-weight: 500;
+  color: rgba(6, 18, 36, 0.8980392157);
+}
+.sectio .section4 b {
+  font-family: "IBM Plex Serif";
+  font-size: 40px;
+  font-weight: 500;
+  color: rgba(6, 18, 36, 0.8980392157);
+}
+.sectio .section4 p {
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(6, 18, 36, 0.8980392157);
+}
+
+.sucs h5 {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-size: 40px;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  text-align: center;
+  margin-top: 40px;
+}
+.sucs .imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.sucs .imgs img {
+  height: 100px;
+  width: 200px;
+}
+@media (max-width: 1050px) {
+  .sucs .imgs {
+    flex-wrap: wrap;
+  }
+}
+
+.tghu {
+  background-color: #D8F1F0;
+  padding: 10px;
+}
+.tghu h6 {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-size: 40px;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.tghu .div-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.tghu .div-box .p-5 {
+  color: rgba(6, 18, 36, 0.8980392157);
+}
+@media (max-width: 1050px) {
+  .tghu .div-box .fff {
+    display: none;
+  }
+}
+@media (max-width: 770px) {
+  .tghu .div-box {
+    flex-direction: column;
+  }
+}
+
+.supra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.supra b {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-size: 40px;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section12 b {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-size: 40px;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  text-align: center;
+  margin-top: 40px;
+}
+.section12 p {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-size: 17px;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.section12 .div12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.section12 .div12 .input {
+  width: 400px;
+  height: 40px;
+  border-radius: 34px;
+  border: 1px solid #1064E5;
+}
+
+@media (max-width: 770px) {
+  .footer-nav {
+    flex-direction: column;
+  }
+}
+
 .metka {
   display: flex;
   align-items: center;
