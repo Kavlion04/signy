@@ -1,6 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+.container {
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+.con__box {
+  padding: 0 30px;
+}
+.con__box p {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.con__box h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.con__box h2 {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.con__box__text p {
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.con__box__text p span {
+  color: blue;
+}
+.con__box__text h3 {
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.con__box__text h3 span {
+  color: blue;
+}
+
+.con__box__text2 {
+  margin-top: 80px;
+}
+.con__box__text2 p {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+.con__box__text2 h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.con__box__text2 h2 span {
+  color: blue;
+}
+
+.bad__email {
+  height: 800px;
+  background-color: #D8F1F0;
+}
+
+.bad__email__skn {
+  text-align: center;
+}
+.bad__email__skn h1 {
+  margin-top: 50px;
+  font-size: 45px;
+  font-weight: 600;
+}
+.bad__email__skn p {
+  font-size: 20px;
+  margin: 15px 0 0px 0;
+}
+
+.inputs__box {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+.inputs__box p {
+  font-size: 19px;
+  color: rgba(6, 18, 36, 0.8980392157);
+  margin: 30px 0 10px 25px;
+}
+.inputs__box input {
+  padding: 14px;
+  width: 100%;
+  font-size: 25px;
+  color: #9BA0A7;
+  border-radius: 40px;
+}
+.inputs__box div p {
+  font-size: 19px;
+  color: rgba(6, 18, 36, 0.8980392157);
+  margin: 30px 0 10px 25px;
+}
+.inputs__box div input {
+  width: 100%;
+  border-radius: 12px;
+  padding: 14px 100px 100px 14px;
+}
+
+.metka {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}
+.metka .flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+.metka .flex .signy {
+  color: rgba(6, 18, 36, 0.8980392157);
+  opacity: 60%;
+  font-size: 12px;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+}
+.metka .flex h1 {
+  color: rgba(6, 18, 36, 0.8980392157);
+  opacity: 90%;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  font-size: 40px;
+}
+.metka .flex .club {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-size: 18px;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  opacity: 90%;
+}
+.metka .flex .telcenter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.metka .flex .telcenter img {
+  margin-top: -40px;
+}
+.metka .flex .telcenter div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.metka .flex .telcenter div a {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  opacity: 90%;
+}
+.metka .flex .email {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.metka .flex .email a {
+  color: rgba(6, 18, 36, 0.8980392157);
+  opacity: 90%;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-size: 18px;
+}
+.metka .flex .adress {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.metka .flex .adress a {
+  color: rgba(6, 18, 36, 0.8980392157);
+  opacity: 90%;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  font-size: 18px;
+}
+@media (max-width: 900px) {
+  .metka .flex {
+    margin-left: -200px;
+  }
+}
+.metka .karta {
+  margin-top: 150px;
+  border-radius: 30px;
+}
+@media (max-width: 900px) {
+  .metka .karta {
+    margin-top: -20px;
+  }
+}
+@media (max-width: 900px) {
+  .metka {
+    flex-direction: column;
+  }
+}
+
+.p-5 h2 {
+  color: rgba(6, 18, 36, 0.8980392157);
+  opacity: 90%;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  font-size: 40px;
+}
+.p-5 .div1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+.p-5 .div1 label {
+  margin-left: 20px;
+  margin-bottom: -15px;
+}
+.p-5 .div1 input {
+  width: 380px;
+  border-radius: 30px;
+  border: 1px solid rgba(6, 18, 36, 0.8980392157);
+  outline: none;
+}
+.p-5 .div4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+.p-5 .div4 label {
+  margin-bottom: -15px;
+  margin-left: 20px;
+}
+.p-5 .div4 textarea {
+  width: 380px;
+  border-radius: 10px;
+  border: 1px solid rgba(6, 18, 36, 0.8980392157);
+  outline: none;
+}
+.p-5 .btn {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #061224;
+  color: #FFFFFF;
+  padding: 60px;
+}
+footer .footer-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+footer .footer-nav img {
+  margin-bottom: 80px;
+}
+footer .footer-nav .div2 ul li a {
+  display: flex;
+  gap: 20px;
+  font-family: "IBM PLex Sans";
+  font-weight: 500;
+}
+footer .footer-nav .adds ul li a {
+  color: #FFFFFF;
+  opacity: 80%;
+  font-family: "";
+}
+footer .ibm40 {
+  color: #FFFFFF;
+  opacity: 40%;
+}
+footer .ibm40 ul li {
+  display: flex;
+  gap: 200px;
+  margin-top: 50px;
+}
+footer .ibm40 ul li .ert {
+  margin-left: -40px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+}
+
+.contianer {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 10px 27px;
+  border-radius: 20px;
+  border: 1.5px solid #1064E5;
+  color: rgba(6, 18, 36, 0.8980392157);
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "IBM Plex Sans";
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: #1064E5;
+  color: #fff;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header .header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+header .header__nav .header__nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+header .header__nav .header__nav2 .nav {
+  display: flex;
+  gap: 20px;
+}
+header .header__nav .header__nav2 .nav ul {
+  display: flex;
+  gap: 50px;
+}
+header .header__nav .header__nav2 .nav ul li {
+  display: flex;
+}
+header .header__nav .header__nav2 .nav ul li a {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  font-size: 14px;
+}
+header .header__nav .header__nav2 .nav ul li a:hover {
+  color: #1064E5;
+}
+header .header__nav .select {
+  border: none;
+  outline: none;
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: transparent;
+}
+header .header__nav .select option {
+  color: rgba(6, 18, 36, 0.8980392157);
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  font-size: 14px;
+}
+@media (max-width: 1050px) {
+  header .header__nav {
+    display: none;
+  }
+}
+header .header__img {
+  display: none;
+  cursor: pointer;
+}
+@media (max-width: 1050px) {
+  header .header__img {
+    display: block;
+  }
+}
+
+.relative {
+  display: flex;
+  align-items: center;
+  gap: 100px;
 }/*# sourceMappingURL=main.css.map */
