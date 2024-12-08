@@ -1,13 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./sass/main.css">
-</head>
-<body>
+    <title>SIGNY</title>
+    <link rel="stylesheet" href="../../sass/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../../assets/fonts/Group 7 (1).svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+
+</head>
+
+
+<body>
+    <header class="containe margin-0-auto">
+        <div>
+            <a href="../../index.html"><img src="../../assets/fonts/Group 7 (1).svg" alt=""></a>
+        </div>
+        <div class="header__nav">
+
+
+            <div>
+
+                <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+                    class="text-[#061224E5] opacity-90   font-[IBM Plex Sans] font-[700] text-[14px]  text-center inline-flex items-center "
+                    type="button">0 800 750 643<svg class="w-2.5 h-2.5 ms-3 " aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 1 4 4 4-4" />
+                    </svg>
+                </button>
+
+                <!-- Dropdown menu -->
+                <div id="dropdown" class="z-10 hidden bg-white divide-y  rounded-lg shadow  w-44 ">
+                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                        <li>
+                            <a href="tel:0 800 750 643"
+                                class=" font-[IBM Plex Sans] font-[500] block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">0
+                                800 340 566</a>
+                        </li>
+                        <li>
+                            <a href="tel:0 800 123 334"
+                                class="block font-[IBM Plex Sans] font-[500]  px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">0
+                                800 123 334</a>
+                        </li>
+                        <li>
+                            <a href="tel:0 800 124 456"
+                                class="block font-[IBM Plex Sans] font-[500]  px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">0
+                                800 124 456</a>
+                        </li>
+                        <li>
+                            <a href="tel:0 800 456 457"
+                                class="block font-[IBM Plex Sans] font-[500]  px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">0
+                                800 456 457</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div>
+                <button id="dropdownDefaultButton2" data-dropdown-toggle="dropdown2"
+                    class="text-[#061224E5] opacity-90 text-[14px] font-[500] font-[IBM Plex Sans] hover:text-[#1064E5]  text-center inline-flex items-center  "
+                    type="button">ПРО НАС <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 1 4 4 4-4" />
+                    </svg>
+                </button>
+
+
+                <div id="dropdown2"
+                    class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton2">
+                        <li>
+                            <a href="./pages/muhammad.html"
+                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Блог</a>
+                        </li>
+                        <li>
+                            <a href="./pages/feruzbek.html"
+                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Название
+                                статьи</a>
+                        </li>
+                        <li>
+                            <a href="./pages/video.html"
+                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Видео
+                                инструкции</a>
+                        </li>
+                        <li>
+                            <a href="./pages/yosinxon.html"
+                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Популярные
+                                вопросы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__nav2">
+
+                <nav class="nav">
+                    <ul>
+                        <li>
+                            <a class="text-[#061224E5] font-[IBM Plex Sans] font-[500] opacity-90 text-[14px] "
+                                href="">ЦЕНЫ</a>
+                        </li>
+                        <li>
+                            <a class="text-[#061224E5] font-[IBM Plex Sans] font-[500] opacity-90 text-[14px] "
+                                href="./pages/home.html">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="btn">
+                    Вход
+                </button>
+                <button class="btn">
+                    Регистрация
+                </button>
+                <div>
+                    <select name="" id="" class="select">
+                        <option value="RU">РУС</option>
+                        <option value="EN">ENG</option>
+                        <option value="UZ">UZB</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <img id="show-content-btn" class="header__img p-4 cursor-pointer dark:text-white absolute top-0 right-0"
+            src="../../assets/icons/Group 1390.svg" alt="">
+        <div id="dynamic-content" class="hidden  dark:text-white">
+
+
+
+
+
+
+            <aside
+                class="fixed top-0 right-0 z-40 w-64 h-100 transition-transform -translate-x-full sm:translate-x-0 ease-in-out duration-300"
+                id="cta-button-sidebar" aria-label="Sidebar">
+                <div class="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+                    <ul class="space-y-2 font-medium">
+                        <li>
+                            <a href="#"
+                                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+
+                                <div class="relative">
+
+                                    <img class="w-20 " src="../../assets/icons/Group 7 (1).svg" alt="">
+                                    <button id="close-content-btn"
+                                        class="p-2  text-gray-400   hover:bg-blue-200 dark:bg-blue-800 dark:text-white">
+                                        <i class="fa-solid fa-xmark text-2xl "></i>
+
+                                    </button>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 18 18">
+                                    <path
+                                        d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" />
+                                </svg>
+                                <span class="flex-1 ms-3 whitespace-nowrap">Kanban</span>
+                                <span
+                                    class="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300">Pro</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path
+                                        d="m17.418 3.623-.018-.008a6.713 6.713 0 0 0-2.4-.569V2h1a1 1 0 1 0 0-2h-2a1 1 0 0 0-1 1v2H9.89A6.977 6.977 0 0 1 12 8v5h-2V8A5 5 0 1 0 0 8v6a1 1 0 0 0 1 1h8v4a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1v-4h6a1 1 0 0 0 1-1V8a5 5 0 0 0-2.582-4.377ZM6 12H4a1 1 0 0 1 0-2h2a1 1 0 0 1 0 2Z" />
+                                </svg>
+                                <span class="flex-1 ms-3 whitespace-nowrap">Inbox</span>
+                                <span
+                                    class="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">3</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 20 18">
+                                    <path
+                                        d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
+                                </svg>
+                                <span class="flex-1 ms-3 whitespace-nowrap">Users</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 18 20">
+                                    <path
+                                        d="M17 5.923A1 1 0 0 0 16 5h-3V4a4 4 0 1 0-8 0v1H2a1 1 0 0 0-1 .923L.086 17.846A2 2 0 0 0 2.08 20h13.84a2 2 0 0 0 1.994-2.153L17 5.923ZM7 9a1 1 0 0 1-2 0V7h2v2Zm0-5a2 2 0 1 1 4 0v1H7V4Zm6 5a1 1 0 1 1-2 0V7h2v2Z" />
+                                </svg>
+                                <span class="flex-1 ms-3 whitespace-nowrap">Products</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 18 16">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3" />
+                                </svg>
+                                <span class="flex-1 ms-3 whitespace-nowrap">Sign In</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 20 20">
+                                    <path d="M5 5V.13a2.96 2.96 0 0 0-1.293.749L.879 3.707A2.96 2.96 0 0 0 .13 5H5Z" />
+                                    <path
+                                        d="M6.737 11.061a2.961 2.961 0 0 1 .81-1.515l6.117-6.116A4.839 4.839 0 0 1 16 2.141V2a1.97 1.97 0 0 0-1.933-2H7v5a2 2 0 0 1-2 2H0v11a1.969 1.969 0 0 0 1.933 2h12.134A1.97 1.97 0 0 0 16 18v-3.093l-1.546 1.546c-.413.413-.94.695-1.513.81l-3.4.679a2.947 2.947 0 0 1-1.85-.227 2.96 2.96 0 0 1-1.635-3.257l.681-3.397Z" />
+                                    <path
+                                        d="M8.961 16a.93.93 0 0 0 .189-.019l3.4-.679a.961.961 0 0 0 .49-.263l6.118-6.117a2.884 2.884 0 0 0-4.079-4.078l-6.117 6.117a.96.96 0 0 0-.263.491l-.679 3.4A.961.961 0 0 0 8.961 16Zm7.477-9.8a.958.958 0 0 1 .68-.281.961.961 0 0 1 .682 1.644l-.315.315-1.36-1.36.313-.318Zm-5.911 5.911 4.236-4.236 1.359 1.359-4.236 4.237-1.7.339.341-1.699Z" />
+                                </svg>
+                                <span class="flex-1 ms-3 whitespace-nowrap">Sign Up</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div id="dropdown-cta" class="p-4 mt-6 rounded-lg bg-blue-50 dark:bg-blue-900" role="alert">
+                        <div class="flex items-center mb-3">
+                            <span
+                                class="bg-orange-100 text-orange-800 text-sm font-semibold me-2 px-2.5 py-0.5 rounded dark:bg-orange-200 dark:text-orange-900">Beta</span>
+                            <button type="button"
+                                class="ms-auto -mx-1.5 -my-1.5 bg-blue-50 inline-flex justify-center items-center w-6 h-6 text-blue-900 rounded-lg focus:ring-2 focus:ring-blue-400 p-1 hover:bg-blue-200 dark:bg-blue-900 dark:text-blue-400 dark:hover:bg-blue-800"
+                                data-dismiss-target="#dropdown-cta" aria-label="Close">
+                                <span class="sr-only">Close</span>
+                                <svg class="w-2.5 h-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 14 14">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
+                                </svg>
+                            </button>
+                        </div>
+                        <p class="mb-3 text-sm text-blue-800 dark:text-blue-400">
+                            Preview the new Flowbite dashboard navigation! You can turn the new navigation off for a
+                            limited time in your profile.
+                        </p>
+                        <a class="text-sm text-blue-800 underline font-medium hover:text-blue-900 dark:text-blue-400 dark:hover:text-blue-300"
+                            href="#">Turn new navigation off</a>
+                    </div>
+
+                </div>
+            </aside>
+
+
+        </div>
+
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="section2">
+                <div class="moment">
+                    <img src="./assets/icons/speedometer 1.svg" alt="">
+                    <div>
+                        <b>Моментально</b>
+                        <p>
+                            Никаких задержек. <br>
+                            1 секунда на подписание
+                        </p>
+                    </div>
+                </div>
+                <div class="moment">
+                    <img src="./assets/icons/positive-vote 1.svg" alt="">
+                    <div>
+                        <b>Глобально</b>
+                        <p>
+                            Сервис доступен 24\7 <br> со всех устройств
+                        </p>
+                    </div>
+                </div>
+                <div class="moment">
+                    <img src="./assets/icons/piggy-bank 1.svg" alt="">
+                    <div>
+                        <b>Экономно</b>
+                        <p>
+
+                            В 30 раз дешевле чем <br> почта и курьеры
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="class">
+
+            <section class="contianer ">
+                <div class="flex gap-5  ">
+                    <div>
+                        <h1>Комфорт в работе</h1>
+                        <div class="all-p">
+
+                            <p>
+                                - Создавай документы по твоим личным привычным <span>шаблонам. Это индивидуально!</span>
+                            </p>
+                            <p>
+                                - Настраивай порядок подписание документа, если вас <span>несколько человек. Это
+                                    ответственно!</span>
+                            </p>
+                            <p>
+
+                                - Загружай XML файл с собственным шаблоном готового <span>документа. Это удобно!</span>
+                            </p>
+                            <p>
+                                - Работай в супер простом и понятном интерфейсе без <span>сложностей. Это
+                                    приятно!</span>
+                            </p>
+
+                        </div>
+                        <button class="btn">Узнать больше</button>
+
+                    </div>
+                    <img src="./assets/images/Group 1392.png" alt="" style="height: 50%;width: 50%;">
+                </div>
+                <div class="flex gap-5 mt-10 ">
+                    <img src="./assets/images/Group 1392.png" alt="" style="height: 50%;width: 50%;">
+                    <div>
+                        <h2>Наш продукт это:</h2>
+                        <div class="all-p">
+
+                            <p>
+                                - Web версия без установки программного обеспечения
+                            </p>
+                            <p>
+                                - Возможность бесплатно и безлимитно обрабатывать <span>входящие документы</span>
+                            </p>
+                            <p>
+
+                                - Простота интеграции с 1С и другими сервисами
+                            </p>
+                            <p>
+                                - Поддержка входа через Mobile ID
+                            </p>
+
+                        </div>
+                        <button class="btn">Зарегистрироваться</button>
+
+                    </div>
+
+                </div>
+            </section>
+        </div>
+        <section class="contianer box-card">
+            <h3>
+                Пакеты цифровых подписей
+            </h3>
+            <div class="div">
+                <div class="card ">
+                    <b class="card-title">
+                        Demo
+                    </b>
+                    <p class="card-text">
+                        30 документів
+                    </p>
+                    <p class="card-text2">
+                        <span>
+                            0
+                        </span>
+                        грн/місяць
+                    </p>
+                    <button class="btn">Зарегистрироваться</button>
+                </div>
+                <div class="card ">
+                    <b class="card-title">
+                        Business
+                    </b>
+                    <p class="card-text">
+                        1 000 документів
+                    </p>
+                    <p class="card-text2">
+                        <span>
+                            1 000
+                        </span>
+                        грн/рік
+                    </p>
+                    <button class="btn">Закакзать</button>
+                </div>
+                <div class="card ">
+                    <b class="card-title">
+                        Pro
+                    </b>
+                    <p class="card-text">
+                        10 000 документів
+                    </p>
+                    <p class="card-text2">
+                        <span>
+                            9 000
+                        </span>
+                        грн/місяць
+                    </p>
+                    <button class="btn">Заказать</button>
+                </div>
+                <div class="card ">
+                    <b class="card-title">
+                        Individual
+                    </b>
+                    <p class="card-text">
+                        Необмежена кількість документів
+                    </p>
+
+                    <button class="btn cvb">Связаться с нами</button>
+                </div>
+            </div>
+        </section>
+        <div class="sectio">
+
+            <section class="contianer ">
+                <div class="section4">
+                    <h4>
+                        5 820 125 114
+                    </h4>
+                    <b>подписано документов</b>
+                    <p>
+                        Наша компания уже более 30 лет создает удобные <br> решения для бизнеса любого размера. Мы
+                        гордимся <br> Signy как безопасным и комфортным продуктом
+                    </p>
+                </div>
+            </section>
+        </div>
+        <section class="contianer sucs">
+            <h5>
+                Друзья Signy
+            </h5>
+            <div class="imgs">
+                <img src="./assets/images/image 3.png" alt="">
+                <img src="./assets/images/image 3 (1).png" alt="">
+                <img src="./assets/images/image 4 (1).png" alt="">
+                <img src="./assets/images/image 6.png" alt="">
+            </div>
+        </section>
+        <div class="tghu">
+
+            <section class="contianer">
+                <h6>Интересно пишем про </h6>
+                <div class="div-box">
     
+    
+                    <div
+                        class="max-w-sm fff  rounded-lg ">
+                        <a href="#">
+                            <img class="rounded-t-lg" src="./assets/images/Placeholder (1).png" alt="" />
+                        </a>
+                        <div class="p-5">
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">28.05.2020
+                             </p>
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Заголовок короткий в две строки
+                                    </h5>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div
+                        class="max-w-sm  rounded-lg ">
+                        <a href="#">
+                            <img class="rounded-t-lg" src="./assets/images/Placeholder (2).png" alt="" />
+                        </a>
+                        <div class="p-5">
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">28.05.2020
+                             </p>
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Заголовок короткий в две строки
+                                    </h5>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div
+                        class="max-w-sm  rounded-lg ">
+                        <a href="#">
+                            <img class="rounded-t-lg" src="./assets/images/Placeholder (3).png" alt="" />
+                        </a>
+                        <div class="p-5">
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">28.05.2020
+                             </p>
+                            <a href="#">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Заголовок короткий в две строки
+                                    </h5>
+                            </a>
+                            
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+        </div>
+        <section class="contianer supra">
+            <b class="text-center">
+                Познакомимся в живую? 
+            </b>
+            <img src="./assets/images/Placeholder (4).png" alt="" style="height: 400px;width: 600px;">
+        </section>
+        <section class="contianer section12">
+
+            <b class="text-center">
+                Подпишись на наши новости!
+            </b>
+            <p>
+                Введи свой электронный адрес и будь в курсе всех обновлений
+            </p>
+            <div class="div12">
+                <input class="input" type="text">
+                <button class="btn">отправить</button>
+            </div>
+        </section>  
+    </main>
+
+    <footer>
+        <div class="footer-nav">
+
+            <a href="../index.html"><img src="../assets/icons/Group 7 (2).svg" alt=""></a>
+            <div class="div2">
+                <ul>
+                    <li>
+                        <a href="">Про нас <br>Цены</a> <br>
+                        <a href="">Вход <br>
+                            Регистрация</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="div2">
+                <ul>
+                    <li>
+                        <a href="">Блог  <br>
+                            Контакты</a>
+                    </li>
+                </ul>
+    
+            </div>
+            <div class="div2">
+                <ul>
+                    <li>
+                        <a href="mailto:infosmartsign@smarttender.biz">infosmartsign@smarttender.biz</a>
+                        <a href="https://www.facebook.com/">Facebook</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="div2 adds">
+                <ul>
+                    <li>
+                        <a href="adress:пр-т Миколи Бажана, 14 А 
+                        Київ, 02072">пр-т Миколи Бажана, 14 А  <br>
+                            Київ, 02072</a>
+                            <a href="tel:0 800 750643">0 800 750643 <br>+380 44 334 56 43 <br>+380 44 338 86 43</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ibm40">
+            <ul> 
+                <li>
+                    <a href="© 2020 Signy">© 2020 Signy</a>
+                    <a href="">Договір оферти</a>
+                    <a class="ert" href="">Безпека сервісу</a>
+                </li>
+            </ul>
+
+            
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="../../js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
 </body>
+
 </html>
