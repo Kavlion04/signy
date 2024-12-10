@@ -1,5 +1,63 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-<<<<<<< HEAD
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .s2__item {
+    flex-direction: column;
+  }
+}
+
+.s2__content {
+  width: 48%;
+}
+@media (max-width: 768px) {
+  .s2__content {
+    width: 100%;
+  }
+}
+
+.s2__content-img {
+  width: 100%;
+}
+
+.input-blog {
+  border-radius: 20px;
+  border: 1px solid #1064e5;
+}
+
+@media (max-width: 600px) {
+  .footer-nav-blog-post {
+    flex-direction: column;
+  }
+}
+
+.s1-content-cards {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  .s1-content-cards {
+    flex-direction: column;
+  }
+}
+.s1-content-cards .s1__content-img2 {
+  width: 45%;
+}
+@media (max-width: 600px) {
+  .s1-content-cards .s1__content-img2 {
+    width: 100%;
+  }
+}
+.s1-content-cards .s1__content-img2 img {
+  width: 100%;
+}
+
 .container {
   border: 1px solid;
   margin: 0 auto;
@@ -97,65 +155,6 @@
   width: 100%;
   border-radius: 12px;
   padding: 14px 100px 100px 14px;
-=======
-@media (max-width: 600px) {
-  body {
-    overflow-x: hidden;
-  }
-}
-
-@media (max-width: 768px) {
-  .s2__item {
-    flex-direction: column;
-  }
-}
-
-.s2__content {
-  width: 48%;
-}
-@media (max-width: 768px) {
-  .s2__content {
-    width: 100%;
-  }
-}
-
-.s2__content-img {
-  width: 100%;
-}
-
-.input-blog {
-  border-radius: 20px;
-  border: 1px solid #1064e5;
-}
-
-@media (max-width: 600px) {
-  .footer-nav-blog-post {
-    flex-direction: column;
-  }
-}
-
-.s1-content-cards {
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  flex-wrap: wrap;
-}
-@media (max-width: 600px) {
-  .s1-content-cards {
-    flex-direction: column;
-  }
-}
-.s1-content-cards .s1__content-img2 {
-  width: 45%;
-}
-@media (max-width: 600px) {
-  .s1-content-cards .s1__content-img2 {
-    width: 100%;
-  }
-}
-.s1-content-cards .s1__content-img2 img {
-  width: 100%;
->>>>>>> 6760d3896ab911f1f23762055210d9e2d91885dc
 }
 
 .metka {
